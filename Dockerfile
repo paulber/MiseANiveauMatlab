@@ -9,7 +9,7 @@ RUN apt-get update -yqq \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-USER cranky
+USER jovyan
 
 #jupyter nbextension enable --py --sys-prefix widgetsnbextension
 RUN conda install octave \
