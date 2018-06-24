@@ -1,19 +1,17 @@
 FROM jupyter/base-notebook
-MAINTAINER Arnau Siches <asiches@gmail.com>
-
 USER root
-ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update -yqq \
- && apt-get install -yqq \
-      octave \
- && apt-get autoclean \
- && apt-get clean \
- && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends octave \
+        octave-symbolic octave-miscellaneous \
+        python-sympy \
+        gnuplot ghostscript && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 
-USER jovyan
+USER $NB_UID
 
-#jupyter nbextension enable --py --sys-prefix widgetsnbextension
-RUN pip install --upgrade pip \
- && pip install octave_kernel \
- && pip install octave
+RUN conda install --quiet --yes \
+    'octave_kernel' && \
+    conda clean -tipsy && \
+fix-permissions $CONDA_DIR
