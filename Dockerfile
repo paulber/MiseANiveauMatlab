@@ -14,5 +14,6 @@ RUN apt-get update -yqq \
 USER jovyan
 
 #jupyter nbextension enable --py --sys-prefix widgetsnbextension
-RUN pip install octave_kernel \
+RUN pip install --upgrade pip \
+ && pip install octave_kernel \
  && pip install octave
