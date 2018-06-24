@@ -9,8 +9,6 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-USER $NB_UID
-
 RUN conda install --quiet --yes \
     'octave_kernel' && \
     conda clean -tipsy && \
