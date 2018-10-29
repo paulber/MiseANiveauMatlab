@@ -1,1 +1,5 @@
 rm -rf README.md
+rm -rf Cours
+rm -rf DS_STORE
+rm -rf .gitattributes
+rm -rf .gitignore
