@@ -1,1 +1,1 @@
-rm README.md
+rm -rf README.md
