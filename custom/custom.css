@@ -2,3 +2,13 @@ div.text_cell_render p {
     text-align: justify;
     text-justify: inter-word;
 }
+
+
+#edit_menu{
+	display:none;
+}
+
+#menu-cell-toolbar{
+	display:none;
+}
+
