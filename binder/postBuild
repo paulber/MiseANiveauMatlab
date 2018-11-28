@@ -4,6 +4,6 @@ rm -rf conda-bld
 rm -rf DS_STORE
 rm -rf .gitattributes
 rm -rf .gitignore
-mv custom ~/.ipython/profile_default/static/
+mv custom ~/.jupyter/profile_default/static/
 rm -rf binder
 
