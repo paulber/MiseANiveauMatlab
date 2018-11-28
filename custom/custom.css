@@ -1,0 +1,4 @@
+div.text_cell_render p {
+    text-align: justify;
+    text-justify: inter-word;
+}

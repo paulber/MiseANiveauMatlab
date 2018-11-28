@@ -5,3 +5,4 @@ rm -rf DS_STORE
 rm -rf .gitattributes
 rm -rf .gitignore
 rm -rf binder
+mvdir custom ~/.ipython/profile_default/static/
