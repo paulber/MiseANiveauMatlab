@@ -3,7 +3,6 @@ div.text_cell_render p {
     text-justify: inter-word;
 }
 
-
 #edit_menu{
 	display:none;
 }
@@ -12,3 +11,6 @@ div.text_cell_render p {
 	display:none;
 }
 
+#cut_copy_paste{
+	display:none;
+}
