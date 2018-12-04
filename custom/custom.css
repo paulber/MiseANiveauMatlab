@@ -1,6 +1,7 @@
 div.text_cell_render p {
     text-align: justify;
     text-justify: inter-word;
+    text-indent: 12.7mm;
 }
 
 #edit_menu{
@@ -13,4 +14,8 @@ div.text_cell_render p {
 
 #cut_copy_paste{
 	display:none;
+}
+
+.rendered_html tr, .rendered_html th, .rendered_html td {
+  text-align: center;
 }
