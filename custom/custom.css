@@ -19,3 +19,9 @@ div.text_cell_render p {
 .rendered_html tr, .rendered_html th, .rendered_html td {
   text-align: center;
 }
+
+span.flex-spacer {                                                                                        
+    display: flex;
+    flex-direction : row;
+    justify-content: space-around;
+    }
