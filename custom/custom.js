@@ -20,6 +20,7 @@ var innerFlexSpacer = document.getElementsByClassName('flex-spacer');
 var urlPathBase = document.body.getAttribute("data-base-url")
 
 
+if (innerFlexSpacer.length != 0) {
 var aimg1 = document.createElement("a");
 aimg1.target = "_blank";
 aimg1.rel="noopener noreferrer";
@@ -67,3 +68,9 @@ img4.width = 120;
 img4.height = 33;
 aimg4.appendChild(img4);
 innerFlexSpacer[0].appendChild(aimg4);
+}
+
+jQuery(function(j$){//This will execute on page load
+
+  $('.cell').unbind('dblclick'); // unbind doubleclick event for text-cell in Jupyter notebook
+});
