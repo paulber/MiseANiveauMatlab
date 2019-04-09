@@ -1,2 +1,5 @@
-flatpak
+octave
+octave-symbolic
+octave-miscellaneous
+gnuplot
 ghostscript
