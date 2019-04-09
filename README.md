@@ -35,3 +35,7 @@ To access the course (in french for now), simply click on this link: https://myb
 To ask your questions, use the "Issues" section of Github
 
 You can suggest your own course modifications via a "pull request"
+
+# JP :
+
+
