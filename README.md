@@ -13,7 +13,7 @@ Il s'agit d'une plateforme d'apprentissage à destination :
 - Des étudiants ayant besoin de se mettre à niveau en Matlab
 
 Pour accéder au cours, cliquez simplement sur ce lien : https://mybinder.org/v2/gh/paulber/MiseANiveauMatlab/master
-
+ou https://mybinder.org/v2/gh/paulber/MiseANiveauMatlab/master?urlpath=lab/tree pour un jupyterlab
 Pour poser vos questions, utilisez la section "Issues" de Github
 
 Vous pouvez proposer vos propres modifications du cours par l'intermédiaire d'un "pull request"
